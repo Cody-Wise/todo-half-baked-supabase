@@ -101,3 +101,10 @@ deleteButton.addEventListener('click', async () => {
 
     // then refetch and display the updated list of todos
 });
+
+
+// let options = {
+//     valueNames: ['incomplete todo complete']
+// };
+
+// let hackerList = new List('hacker-list', options);
