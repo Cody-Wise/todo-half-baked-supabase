@@ -22,7 +22,6 @@ function toggleLoadingSpinner() {
 
 todoForm.addEventListener('submit', async (e) => {
     e.preventDefault();
-    console.log('hello');
     const data = new FormData(todoForm);
 
     await createTodo({
